@@ -31,13 +31,13 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#ifdef HAVE_INTTYPES_H
+//#ifdef HAVE_INTTYPES_H
 #include <inttypes.h>
-#elif defined(HAVE_STDINT_H)
-#include <stdint.h>
-#else
-#error missing C99 integer data types
-#endif
+//#elif defined(HAVE_STDINT_H)
+//#include <stdint.h>
+//#else
+//#error missing C99 integer data types
+//#endif
 #include <string.h>
 #include <ctype.h>
 #include <errno.h>

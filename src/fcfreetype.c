@@ -1770,12 +1770,12 @@ bail:
 /*
  * For our purposes, this approximation is sufficient
  */
-#if !HAVE_FT_GET_NEXT_CHAR
-#define FT_Get_Next_Char(face, ucs4, gi) ((ucs4) >= 0xffffff ? \
-					  (*(gi) = 0), 0 : \
-					  (*(gi) = 1), (ucs4) + 1)
-#warning "No FT_Get_Next_Char: Please install freetype version 2.1.0 or newer"
-#endif
+/*#if !HAVE_FT_GET_NEXT_CHAR*/
+/*#define FT_Get_Next_Char(face, ucs4, gi) ((ucs4) >= 0xffffff ? \*/
+						/*(*(gi) = 0), 0 : \*/
+						/*(*(gi) = 1), (ucs4) + 1)*/
+/*#warning "No FT_Get_Next_Char: Please install freetype version 2.1.0 or newer"*/
+/*#endif*/
 
 typedef struct _FcCharEnt {
     FcChar16	    bmp;

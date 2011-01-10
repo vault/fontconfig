@@ -16,7 +16,6 @@ Makefile.in
 aclocal.m4
 autom4te.cache
 config.guess
-config.h
 config.h.in
 config.log
 config.status
@@ -61,7 +60,6 @@ doc/fontconfig-devel.pdf
 doc/fontconfig-devel.txt
 doc/fontconfig-devel
 doc/fontconfig-user.html
-doc/fontconfig-user.pdf
 doc/fontconfig-user.txt
 doc/fonts-conf.5
 doc/func.refs
@@ -69,18 +67,13 @@ doc/local-fontconfig-devel.sgml
 doc/local-fontconfig-user.sgml
 doc/version.sgml
 doc/devel-man
-fc-arch/fc-arch
-fc-arch/fcarch.h
 fc-cache/fc-cache
 fc-cache/fc-cache.1
 fc-case/fc-case
-fc-case/fccase.h
 fc-cat/fc-cat
 fc-cat/fc-cat.1
 fc-glyphname/fc-glyphname
-fc-glyphname/fcglyphname.h
 fc-lang/fc-lang
-fc-lang/fclang.h
 fc-list/fc-list
 fc-list/fc-list.1
 fc-match/fc-match
@@ -90,7 +83,3 @@ fc-query/fc-query.1
 fc-scan/fc-scan
 fc-scan/fc-scan.1
 src/fontconfig.def
-fcalias.h
-fcaliastail.h
-src/fcftalias.h
-src/fcftaliastail.h

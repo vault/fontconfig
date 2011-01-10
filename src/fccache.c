@@ -305,6 +305,8 @@ static int		fcCacheMaxLevel;
 # else
 #  if HAVE_RAND
 #   define FcRandom()  rand()
+#  else
+#   define FcRandom() random()
 #  endif
 # endif
 #endif
