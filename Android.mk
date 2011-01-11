@@ -5,8 +5,8 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := fontconfig
 LOCAL_CFLAGS := -DFONTCONFIG_PATH=\".\"
-LOCAL_CFLAGS += -DFC_CACHEDIR=\"cache\"
-LOCAL_CFLAGS += -DFC_DEFAULT_FONTS=\"fonts\"
+LOCAL_CFLAGS += -DFC_CACHEDIR=\"/sdcard/.fccache\"
+LOCAL_CFLAGS += -DFC_DEFAULT_FONTS=\"/system/fonts\"
 #LOCAL_STATIC_LIBRARIES := ft2 expat 
 #LOCAL_LDLIBS :=  -lft2 -lexpat
 
