@@ -4,7 +4,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := fontconfig
-LOCAL_CFLAGS := -DFONTCONFIG_PATH=\".\"
+LOCAL_CFLAGS := -DFONTCONFIG_PATH=\"/sdcard/.fcconfig\"
 LOCAL_CFLAGS += -DFC_CACHEDIR=\"/sdcard/.fccache\"
 LOCAL_CFLAGS += -DFC_DEFAULT_FONTS=\"/system/fonts\"
 #LOCAL_STATIC_LIBRARIES := ft2 expat 
